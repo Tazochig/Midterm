@@ -1,0 +1,201 @@
+body{ 
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    width: 736px;
+    height: 512px;
+    display: flex;
+}
+.marcxena{
+    width: 366px;
+    height: 512px;
+    background-color: #7755FF;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.headeri{
+    color: var(--Light-Blue, #CAC9FF);
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: "Hanken Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.burti{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #4D21C9;
+    position: relative;
+}
+.cifri{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: "Hanken Grotesk";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px; 
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    }
+    .qvecifri{
+        color: var(--Light-Blue, #CAC9FF);
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: "Hanken Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    opacity: 0.5168;
+    position: absolute;
+    right: 74px;
+    top: 131px;
+}
+.satauri{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: "Hanken Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .shigtavsi{
+        color: var(--Light-Blue, #CAC9FF);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: "Hanken Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.marjvena{
+    width: 368px;
+    height: 512px;
+    background-color: white;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box1{
+    width: 260px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:   #e08c8ca1;
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+.surati{
+    height: 20px;
+    width: 20px;
+}
+.icon1{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.Max_score
+{
+    color: var(--Dark-Navy, #303B59);
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.icon2{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    width: 260px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:   #e5ecd1a1;
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 20px;
+
+}
+.icon3{
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    width: 260px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:   rgb(150, 217, 150);
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 20px;
+
+}
+.icon4{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4{
+    width: 260px;
+    height: 56px;
+    border-radius: 12px;
+    background-color:   #8890d6;
+    display: flex;  
+    justify-content: space-between;
+    padding-inline: 20px;
+
+}
+.Continue{
+    width: 288px;
+    height: 56px;
+    border-radius: 128px;
+    background: var(--Dark-Navy, #303B59);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
