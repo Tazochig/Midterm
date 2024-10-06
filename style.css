@@ -10,6 +10,7 @@ body{
     width: 736px;
     height: 512px;
     display: flex;
+    
 }
 .marcxena{
     width: 366px;
@@ -99,12 +100,13 @@ body{
     justify-content: space-evenly;
     align-items: center;
 
+
 }
 .box1{
     width: 260px;
     height: 56px;
     border-radius: 12px;
-    background-color:   #e08c8ca1;
+    background-color:   rgb(255, 85, 85, 0.1);
     display: flex;  
     justify-content: space-between;
     padding-inline: 20px;
@@ -151,7 +153,7 @@ body{
     width: 260px;
     height: 56px;
     border-radius: 12px;
-    background-color:   #e5ecd1a1;
+    background-color:   rgb(255, 178, 30, 0.1);
     display: flex;  
     justify-content: space-between;
     padding-inline: 20px;
@@ -167,7 +169,7 @@ body{
     width: 260px;
     height: 56px;
     border-radius: 12px;
-    background-color:   rgb(150, 217, 150);
+    background-color:   rgb(0, 187, 143, 0.1);
     display: flex;  
     justify-content: space-between;
     padding-inline: 20px;
@@ -183,7 +185,7 @@ body{
     width: 260px;
     height: 56px;
     border-radius: 12px;
-    background-color:   #8890d6;
+    background-color:   rgb(17, 37, 214, 0.1);
     display: flex;  
     justify-content: space-between;
     padding-inline: 20px;
